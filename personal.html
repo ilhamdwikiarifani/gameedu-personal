@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="personal.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Salah Modal -->
+    <div class="modal-container" id="salah-modal">
+      <div class="modal-content-container">
+        <h1>belajar terlebih dahulu ya</h1>
+        <p id="judul"></p>
+        <p id="content"></p>
+        <div class="modal-button-container">
+          <button onclick="backModal()">
+            <img
+              src="https://www.kindpng.com/picc/m/11-116664_computer-back-icon-left-right-arrow-cartoon-public.png"
+              alt=""
+              width="20px"
+            />
+            Kembali
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benar Modal -->
+    <div class="modal-container" id="benar-modal">
+      <div class="modal-content-container">
+        <h1>Jawaban Benar Selamat</h1>
+        <div class="modal-button-container">
+          <button onclick="nextModal()">Lanjut</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benar Modal -->
+    <div class="modal-container" id="end-modal">
+      <div class="modal-content-container">
+        <h1>Jawaban Benar ,Quiz Selesai</h1>
+        <p id="skor"></p>
+        <div class="modal-button-container">
+          <button onclick="endModal()">Reload</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="quiz-container" class="container">
+      <div class="">
+        <div class="quiz-wrapper">
+          <p id="question" style="text-align: center"></p>
+          <div class="btn-section">
+            <button id="choice1" class="btn-answer">Choice 1</button>
+            <button id="choice2" class="btn-answer">Choice 2</button>
+          </div>
+          <p id="result"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="personal.js"></script>
+  </body>
+</html>
