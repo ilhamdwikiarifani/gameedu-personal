@@ -36,6 +36,7 @@
     <div class="modal-container" id="benar-modal">
       <div class="modal-content-container">
         <h1>Jawaban Benar Selamat</h1>
+        <p>Naik ke level <span id="levelModal"></span> ?</p>
         <div class="modal-button-container">
           <button onclick="nextModal()">Lanjut</button>
         </div>
@@ -46,6 +47,7 @@
     <div class="modal-container" id="end-modal">
       <div class="modal-content-container">
         <h1>Jawaban Benar ,Quiz Selesai</h1>
+
         <p id="skor"></p>
         <div class="modal-button-container">
           <button onclick="endModal()">Reload</button>
@@ -55,7 +57,12 @@
 
     <div id="quiz-container" class="container">
       <div class="">
+        <div>
+          <p>Level</p>
+          <p id="level"></p>
+        </div>
         <div class="quiz-wrapper">
+          <img id="image" src="" alt="" width="200px" />
           <p id="question" style="text-align: center"></p>
           <div class="btn-section">
             <button id="choice1" class="btn-answer">Choice 1</button>
