@@ -43,8 +43,9 @@
 
 .bg-personal {
   background-image: url("img/hero2.jpg");
+  -webkit-backdrop-filter: brightness(50%);
+  backdrop-filter: brightness(50%);
   background-size: cover;
-  backdrop-filter: inherit;
   background-position: 100% 60%;
   background-repeat: no-repeat;
 }
@@ -56,6 +57,8 @@
 
   .modal-content-container {
     background-image: url("./img/bg-deskripsi.png");
+    -webkit-backdrop-filter: brightness(50%);
+    backdrop-filter: brightness(50%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 70%;
@@ -65,8 +68,9 @@
 
   .bg-personal {
     background-image: url("img/bg-salah.png");
+    -webkit-backdrop-filter: brightness(50%);
+    backdrop-filter: brightness(50%);
     background-size: cover;
-    backdrop-filter: inherit;
     background-position: 100% 60%;
     background-repeat: no-repeat;
   }
