@@ -8,7 +8,7 @@ const questions = [
     answer: "Merapikan Tempat Tidur",
     judul: "TIPS MERAPIKAN TEMPAT TIDUR",
     content:
-      "<p>Merapikan tempat tidur setiap pagi adalah hal sederhana namun merupakan kebiasaan yang bermanfaat. <br> </p><ol><li>a. Pastikan kamu membersihkan seprai agar tetap bersih, tidak bau, dan nyaman. </li><li>b. Jika kamu memiliki tempat tidur jenis queen bed, menata bantal di sudut tempat tidurakan membuat ruangan terlihat lebih besar. </li><li>c. Pastikan tiap sisi seprai terpasang sama rata.</li><li>d. Rapikan tempat tidur setiap hari, atau lepaskan seprai agar terkena udara segar, tak peduli seperti apa pun “perasaan”mu ketika bangun pagi. Cara ini baik untuk membuat pagimu agar menjadi teratur dan membantu agar bangun lebih cepat. </li><li>e. Pastikan sepraimu terpasang dengan kencang di sudut-sudut tempat tidur. </li><li>f. Terakhir, kamu bisa meletakkan bantal di bagian atas tempat tidur! </li><li>g. Cucilah seprai, selimut, dan sarung bantal setiap hari Minggu. Hal ini akan membuat tempat tidur lebih segar, lebih bersih, dan lebih sehat untuk ditiduri. </li><li>h. Cuci seprai, selimut, dan sarung bantal setiap hari Minggu. Ini akan membantu membuat tidurmu menjadi lebih segar, bersih, dan sehat untuk tidur.</li><li> i. Beri lapisan pada bantal untuk menambahkan sentuhan yang bagus. </li><li>j. Berikan tempat tidur Anda gaya yang kamu sukai. Apa pun yang orang lain pikirkan tak masalah, yang penting hanya hal-hal apa yang Anda pikirkan<br></li></ol>",
+      "<p>Merapikan tempat tidur setiap pagi adalah hal sederhana namun merupakan kebiasaan yang bermanfaat.</p><p><br></p><p>a. Pastikan kamu membersihkan seprai agar tetap bersih, tidak bau, dan nyaman.</p><p><br></p><p> </p><p>b. Jika kamu memiliki tempat tidur jenis queen bed, menata bantal di sudut tempat tidurakan membuat ruangan terlihat lebih besar.</p><p><br></p><p> </p><p>c. Pastikan tiap sisi seprai terpasang sama rata.</p><p><br></p><p>d. Rapikan tempat tidur setiap hari, atau lepaskan seprai agar terkena udara segar, tak peduli seperti apa pun “perasaan”mu ketika bangun pagi. Cara ini baik untuk membuat pagimu agar menjadi teratur dan membantu agar bangun lebih cepat.</p><p><br></p><p> </p><p>e. Pastikan sepraimu terpasang dengan kencang di sudut-sudut tempat tidur.</p><p><br></p><p> </p><p>f. Terakhir, kamu bisa meletakkan bantal di bagian atas tempat tidur!</p><p><br></p><p> </p><p>g. Cucilah seprai, selimut, dan sarung bantal setiap hari Minggu. Hal ini akan membuat tempat tidur lebih segar, lebih bersih, dan lebih sehat untuk ditiduri.</p><p><br></p><p> </p><p>h. Cuci seprai, selimut, dan sarung bantal setiap hari Minggu. Ini akan membantu membuat tidurmu menjadi lebih segar, bersih, dan sehat untuk tidur.</p><p><br></p><p> i. Beri lapisan pada bantal untuk menambahkan sentuhan yang bagus.</p><p><br></p><p> </p><p>j. Berikan tempat tidur Anda gaya yang kamu sukai. Apa pun yang orang lain pikirkan tak masalah, yang penting hanya hal-hal apa yang Anda pikirkan<br></p>",
   },
   {
     level: "2",
@@ -20,7 +20,7 @@ const questions = [
     answer: "menyikat gigi",
     judul: "TIPS MENGGOSOK GIGI",
     content:
-      "<p>Menyikat gigi merupakan rutinitas yang dilakukan untuk memelihara kebersihan dan kesehatan gigi dan mulut.</p><ol><li> a. Genggam sikat gigi Anda dengan menempatkan sudut kepala sikat agak miring dengan posisi membentuk sudut 45 derajat. </li><li>b. Sikatlah gigi Anda dengan gerakan melingkar dari atas ke bawah selama 20 detik untuk setiap bagian. </li><li>c. Pastikan semua permukaan gigi sudah disikat sehingga plak atau sisa makanan yang menempel pada gigi bisa hilang. </li><li>d. Untuk membersihkan permukaan dalam barisan gigi depan, Anda harus memegang sikat gigi secara vertikal. </li><li>e. Gerakkan sikat ke atas dan ke bawah pelan-pelan, lalu ulangi gerakan ini sebanyak 2– 3 kali. </li><li>f. Setelah semua gigi tersikat, bilas mulut dan sikat gigi Anda sampai bersih.</li></ol>",
+      "<p>Menyikat gigi merupakan rutinitas yang dilakukan untuk memelihara kebersihan dan kesehatan gigi dan mulut.</p><p><br></p><p> a. Genggam sikat gigi Anda dengan menempatkan sudut kepala sikat agak miring dengan posisi membentuk sudut 45 derajat.</p><p><br></p><p> </p><p>b. Sikatlah gigi Anda dengan gerakan melingkar dari atas ke bawah selama 20 detik untuk setiap bagian.</p><p><br></p><p> </p><p>c. Pastikan semua permukaan gigi sudah disikat sehingga plak atau sisa makanan yang menempel pada gigi bisa hilang.</p><p><br></p><p> </p><p>d. Untuk membersihkan permukaan dalam barisan gigi depan, Anda harus memegang sikat gigi secara vertikal.</p><p><br></p><p> </p><p>e. Gerakkan sikat ke atas dan ke bawah pelan-pelan, lalu ulangi gerakan ini sebanyak 2– 3 kali.</p><p><br></p><p> </p><p>f. Setelah semua gigi tersikat, bilas mulut dan sikat gigi Anda sampai bersih.</p>",
   },
   {
     level: "3",
@@ -32,7 +32,7 @@ const questions = [
     answer: "Mandi",
     judul: "TIPS MANDI YANG BAIK",
     content:
-      "Mandi adalah kegiatan perawatan kulit harian yang memberikan banyak manfaat. Namun, agar mandi benar dan efektif, ada beberapa tips yang perlu diperhatikan yang dijelaskan berikut in",
+      "<p>Mandi adalah kegiatan perawatan kulit harian yang memberikan banyak manfaat. Namun, agar mandi benar dan efektif, ada beberapa tips yang perlu diperhatikan yang dijelaskan berikut ini:</p><p><br></p><p></p><p>a. Sebelum mandi, pastikan untuk menyesuaikan suhu udara terlebih dahulu. Jika ingin mandi dengan air hangat, pastikan udara yang digunakan tidak terlalu panas karena dapat menyebabkan kulit terbakar</p><p><br></p><p> </p><p>b. Jika ingin mencuci rambut, sebaiknya keramas terlebih dahulu sebelum membersihkan seluruh tubuh</p><p><br></p><p> </p><p>c. Pilihlah sabun yang meminimalkan iritasi dan sesuai dengan jenis kulit Anda.</p><p><br></p><p> </p><p>d. Terlalu sering mandi juga tidak baik untuk kesehatan kulit. Mandi dengan frekuensi yang tepat, yaitu sekitar 5-10 menit setiap kali mandi, sudah cukup untuk membersihkan seluruh tubuh.</p><p><br></p><p> </p><p>e. Jangan mandi terlalu lama karena dapat menghilangkan beberapa jenis bakteri baik yang hidup di kulit secara alami.</p><p><br></p><p> </p><p>f. Jika ingin mencuci wajah saat mandi, lakukan di urutan terakhir. Mencuci wajah di urutan terakhir akan sekaligus mengangkat sisa residu sampo atau pasta gigi yangmungkin masih tertinggal di kulit wajah.</p><p><br></p><p> </p><p>g. Hindari mandi dengan air panas karena dapat menyebabkan kulit kering dan iritasi.</p><p><br></p><p> </p><p>h. Setelah mandi, gunakan produk lain seperti deodoran, losion, atau pelembap kulit untuk menjaga kebersihan dan kesehatan tubuh.</p><p><br></p><p> </p><p>i. Menyikat rambut sebelum mandi dapat mengurangi rambut yang jatuh di kamar mandi sehingga saluran udara tidak tersumbat. Dengan memperhatikan tips-tips di atas, mandi dapat dilakukan dengan benar dan efektif untuk menjaga kebersihan dan kesehatan tubuh.</p>",
   },
   {
     level: "4",
@@ -44,7 +44,7 @@ const questions = [
     answer: "Memakai Baju",
     judul: "TIPS MEMAKAI BAJU",
     content:
-      "Mandi adalah kegiatan perawatan kulit harian yang memberikan banyak manfaat. Namun, agar mandi benar dan efektif, ada beberapa tips yang perlu diperhatikan yang dijelaskan berikut in",
+      "<p>Seiring bertambahnya usia, setiap manusia mulai memiliki keinginan untuk melakukan berbagai hal tanpa bantuan orang lain, misalnya memakai baju sendiri.</p><p><br></p><p> </p><p>a. Letakkan pakaian di tempat yang mudah dijangkau karena pakaian yang menggantung di lemari tinggi tentunya sulit untuk dicapai.</p><p><br></p><p> </p><p>b. Mulai dengan pakaian yang praktis, beberapa jenis pakaian yang mudah dikenakan dapat berupa celana dengan karet pinggang yang elastis dan kaus biasa.</p><p><br></p><p></p><p>c. Urutan memakai, mulai dari mengenakan pakaian dalam.</p><p><br></p><p> </p><p>d. Kemudian memakai baju, dengan langkah awal memasukkan kepala melalui lubang leher baju, lalu dorong tangan melewati lengan baju tersebut.</p><p><br></p><p></p><p>e. Selanjutnya cara memakai celana yaitu pegang bagian pinggang celana, kemudian masukkan kaki satu per satu ke dalam lubang celana. Tarik ke atas hingga pas di pinggang.</p><p><br></p><p> </p><p>f. Supaya tidak kesulitan menjaga keseimbangan saat memakai celana, lakukanlah sambil duduk.</p>",
   },
   {
     level: "5",
@@ -57,7 +57,7 @@ const questions = [
     answer: "Menyapu dan Mengepel",
     judul: "TIPS MENYAPU DAN MENGEPEL",
     content:
-      "Mandi adalah kegiatan perawatan kulit harian yang memberikan banyak manfaat. Namun, agar mandi benar dan efektif, ada beberapa tips yang perlu diperhatikan yang dijelaskan berikut in",
+      "<p>Menyapu dan mengepel tidak hanya menjaga rumah Anda tetap bersih dan rapi tetapi juga memberikan beberapa manfaat bagi kesehatan dan bahkan dapat menghemat uang dalam jangka panjang.</p><p><br></p><p><b> TIPS MENYAPU</b></p><p> a. Seret kepala sapu dilantai dengan gerakan pendek pendek yang teratur. </p><p><br></p><p>b. Mulailah dari bagian ujung kamar lalu kearah tengah. </p><p><br></p><p>c. Berhentilah sesekali untuk membersihkan sapu, sapu debu yang sudah menumpuk ke dalam tempat sampah. </p><p><br></p><p><b>TIPS MENGEPEL </b></p><p>a. Siapkan ember, kain pel dan cairan pembersih lantai.</p><p><br></p><p>b. Isilah ember dengan air</p><p><br></p><p>c. Tuangkan cairan pembersih lantai secukupnya</p><p><br></p><p>d. Masukkan kain pel ke dalam ember berisi air dan cairan pembersih lantai </p><p><br></p><p>e. Peras kain pel</p><p><br></p><p>f. Gosokkan kain pel diatas permukaan lantai yang kotor</p>",
   },
   {
     level: "6",
@@ -69,7 +69,7 @@ const questions = [
     answer: "Sarapan",
     judul: "TIPS MAKAN SEHAT",
     content:
-      "Mandi adalah kegiatan perawatan kulit harian yang memberikan banyak manfaat. Namun, agar mandi benar dan efektif, ada beberapa tips yang perlu diperhatikan yang dijelaskan berikut in",
+      "<p>Sarapan adalah kegiatan makan dan minum yang dilakukan antara bangun pagi sampai jam 9 untuk memenuhi sebagian kebutuhan gizi harian. </p><p><br></p><p>a. Pilih makanan berserat tinggi untuk menu sarapan pagi, seperti sayur dan buah.</p><p><br></p><p> b. Mengonsumsi protein dan lemak sehat, seperti daging, ikan dan telur. Masaklah menu sarapan pada malam hari, sehingga kamu hanya perlu menghangatkan makanan kembali pada pagi harinya. </p><p><br></p><p>c. Siapkan bahan-makanan pada malam hari sebelum tidur, sehingga kamu bisa dengan mudah mengolahnya pada pagi hari tanpa harus mencari lagi bahan-makanan tersebut. </p><p><br></p><p>d. Jika kamu tidak sempat sarapan di rumah, kamu bisa membungkus bekal sarapan yang telah disiapkan sejak malam harinya. </p><p><br></p><p>e. Pastikan untuk memilih menu sarapan yang seimbang dan mengandung nutrisi yang dibutuhkan tubuh. Selain itu, jangan lupa untuk mengonsumsi sarapan secara teratur untuk menjaga kesehatan dan energi sepanjang hari.</p>",
   },
   {
     level: "7",
@@ -81,7 +81,7 @@ const questions = [
     answer: "Mencuci piring",
     judul: "TIPS MENCUCI PIRING",
     content:
-      "Mandi adalah kegiatan perawatan kulit harian yang memberikan banyak manfaat. Namun, agar mandi benar dan efektif, ada beberapa tips yang perlu diperhatikan yang dijelaskan berikut in",
+      "<p>Mencuci piring adalah kegiatan pembersihan yang dilakukan untuk membersihkan piring dari sisa-sisa makanan, minyak, dan benda lain yang masih menempel pada piring. </p><p><br></p><p>a. siapkan sabun cuci piring dan spon. </p><p><br></p><p>b. bersihkan piring kotor dengan spon dan sabun. </p><p><br></p><p>c. bilaslah piring dengan air bersih.</p><p><br></p><p> d. rapikan piring yang sudah bersih ke tempatnya.</p>",
   },
   {
     level: "8",
@@ -93,7 +93,7 @@ const questions = [
     answer: " Mencuci baju",
     judul: "TIPS MENCUCI BAJU",
     content:
-      "Mandi adalah kegiatan perawatan kulit harian yang memberikan banyak manfaat. Namun, agar mandi benar dan efektif, ada beberapa tips yang perlu diperhatikan yang dijelaskan berikut in",
+      "<p>Mencuci baju secara teratur dan benar dapat menjaga kualitas dan kebersihan pakaian, menghilangkan noda dan kuman, hemat energi, serta menghilangkan noda bandel pada pakaian. </p><p><br></p><p>a. pisahkan baju berwarna dan putih. </p><p><br></p><p>b. ambil sabun, nyalakan kran air. </p><p><br></p><p>c. kucek pakaian perlahan. </p><p><br></p><p>d. bilas dengan air mengalir dan bersih. </p><p><br></p><p>e. keringkan dengan benar.</p>",
   },
   {
     level: "9",
@@ -105,7 +105,7 @@ const questions = [
     answer: "Menjemur baju",
     judul: "TIPS MENJEMUR PAKAIAN",
     content:
-      "Mengeringkan pakaian langsung di bawah sinar matahari merupakan cara tradisional yang sudah dilakukan sejak dulu. Meski relatif tradisional dan sudah ditemukan mesin pengering yang bisa mengeringkan pakaian lebih cepat dari tenaga surya, ada beberapa anfaat menjemur pakaian langsung dengan sinar matahari, salah satunya lebih murah dan emat energi. Umumnya, jemuran pakaian dapat kering dalam waktu 3–5 jam di bawah sinar matahari yang cerah.",
+      "<p>Mengeringkan pakaian langsung di bawah sinar matahari merupakan cara tradisional yang sudah dilakukan sejak dulu. Meski relatif tradisional dan sudah ditemukan mesin pengering yang bisa mengeringkan pakaian lebih cepat dari tenaga surya, ada beberapa manfaat menjemur pakaian langsung dengan sinar matahari, salah satunya lebih murah dan hemat energi. Umumnya, jemuran pakaian dapat kering dalam waktu 3–5 jam di bawah sinar matahari yang cerah. </p><p><br></p><p>a. Sebelum menjemur pakaian, yang pertama harus dilakukan adalah membaliknya terlebih dahulu. Namun, langkah ini hanya berlaku pada pakaian biasa, bukan pakaian dalam. </p><p><br></p><p>b. Kibaskan pakaian sebelum dijemur. </p><p><br></p><p>c. Saat pakaian sudah digantung, tarik perlahan ujung-ujungnya agar kain menjadi rata. Langkah ini dapat membuat pakaian tidak terlalu kusut setelah kering. </p><p><br></p><p>d. Kemeja atau kaus berkerah sebaiknya dijemur menggunakan gantungan baju, atau hanger, yang digantung di jemuran. Karena dengan begitu, kemeja menjadi tidak kusut dan juga dapat menghemat tempat di jemuran. </p><p><br></p><p>e. Sementara, kaus tanpa kerah, kaus kaki, dan kerudung, cukup digantung saja seperti biasa di jemuran. </p><p><br></p><p>f. Saat pakaian sudah kering secara merata, kamu dapat langsung mengangkatnya.</p>",
   },
   {
     level: "10",
@@ -116,7 +116,7 @@ const questions = [
     answer: "Menyetrika",
     judul: "TIPS MENYETRIKA",
     content:
-      "Setrika sesuai fungsinya digunakan untuk melicinkan pakaian agar tidak lecek dan kusut. Selain itu, manfaat dari setrika yaitu membunuh kuman dan menghilangkan jamur. a. Untuk menyetrika pakaian dimulai dari bagian dalam pakaian terlebih dahulu, seperti kerah, lengan, dan bagian dalam baju. b. Kemudian, setrika bagian luar pakaian seperti bagian depan dan belakang baju. c. Jangan lupa untuk menyetrika bagian lengan baju dengan cara yang sama seperti menyetrika bagian depan dan belakang baju. d. Setelah selesai, biarkan pakaian dingin terlebih dahulu sebelum dilipat atau digantung",
+      "<p>Setrika sesuai fungsinya digunakan untuk melicinkan pakaian agar tidak lecek dan kusut. Selain itu, manfaat dari setrika yaitu membunuh kuman dan menghilangkan jamur.</p><p><br></p><p> </p><p>a. Untuk menyetrika pakaian dimulai dari bagian dalam pakaian terlebih dahulu, seperti kerah, lengan, dan bagian dalam baju.</p><p><br></p><p> </p><p>b. Kemudian, setrika bagian luar pakaian seperti bagian depan dan belakang baju.</p><p><br></p><p> c. Jangan lupa untuk menyetrika bagian lengan baju dengan cara yang sama seperti menyetrika bagian depan dan belakang baju.</p><p><br></p><p> </p><p>d. Setelah selesai, biarkan pakaian dingin terlebih dahulu sebelum dilipat atau digantung</p>",
   },
 ];
 
