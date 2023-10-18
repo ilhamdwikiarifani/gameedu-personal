@@ -27,7 +27,7 @@ const questions = [
     level: "3",
     image:
       "https://www.ebookanak.com/wp-content/uploads/Gambar-48-Keramas-dengan-Sampo-Saat-Mandi.jpg",
-    question: ": Apa yang dilakukan untuk membersihkan badan?",
+    question: "Apa yang dilakukan untuk membersihkan badan?",
     choice1: "Mandi",
     choice2: "Makan",
     answer: "Mandi",
@@ -65,8 +65,6 @@ function displayQuestion() {
 
 displayQuestion();
 
-console.log(questions[currentQuestion]);
-
 function checkAnswer(answer) {
   if (answer === questions[currentQuestion].answer) {
     document.getElementById("benar-modal").style.display = "flex";
@@ -95,6 +93,16 @@ choice2Element.addEventListener("click", () => {
 
 function backModal() {
   document.getElementById("salah-modal").style.display = "none";
+}
+
+function bacaMateri() {
+  document.getElementById("materi-modal").style.display = "flex";
+  document.getElementById("salah-modal").style.display = "none";
+}
+
+function bacaMatericlose() {
+  document.getElementById("materi-modal").style.display = "none";
+  document.getElementById("salah-modal").style.display = "flex";
 }
 
 function nextModal() {
