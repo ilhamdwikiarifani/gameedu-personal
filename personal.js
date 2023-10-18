@@ -1,8 +1,7 @@
 const questions = [
   {
     level: "1",
-    image:
-      "https://janethes.com/wp-content/uploads/2019/01/mengajarkan-rutinitas-gosok-gigi-pada-anak_Artboard-2.png",
+    image: "https://legutykids.com/wp-content/uploads/2023/03/Nurfatuh.png",
     question: "Apa yang dilakukan setelah bangun tidur?",
     choice1: "Pergi",
     choice2: "Merapikan Tempat Tidur",
@@ -26,7 +25,7 @@ const questions = [
   {
     level: "3",
     image:
-      "https://janethes.com/wp-content/uploads/2019/01/mengajarkan-rutinitas-gosok-gigi-pada-anak_Artboard-2.png",
+      "https://makassar.terkini.id/wp-content/uploads/2021/10/terkiniid_images-43_copy_800x500-696x385.jpeg",
     question: "Apa yang dilakukan untuk membersihkan badan?",
     choice1: "Mandi",
     choice2: "Makan",
