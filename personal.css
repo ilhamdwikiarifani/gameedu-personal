@@ -42,15 +42,39 @@
 }
 
 @media (max-width: 768px) {
+  .modal-container {
+    overflow: hidden;
+  }
+
   .modal-content-container {
+    background-image: url("./img/bg-deskripsi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 70%;
     height: 100vh;
-    width: 35rem;
+    width: 100vh;
   }
 
   .bg-personal {
-    background-image: url("img/bg-home.png");
+    background-image: url("img/bg-salah.png");
     background-size: cover;
-    background-position: 100% 50%;
+    backdrop-filter: inherit;
+    background-position: 100% 60%;
     background-repeat: no-repeat;
   }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-15%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+.animasi-bounce2 {
+  animation: bounce 1s infinite;
 }
