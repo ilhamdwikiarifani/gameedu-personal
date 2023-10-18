@@ -3,7 +3,7 @@ const questions = [
     level: "1",
     image: "https://legutykids.com/wp-content/uploads/2023/03/Nurfatuh.png",
     question: "Apa yang dilakukan setelah bangun tidur?",
-    choice1: "Pergi",
+    choice1: "Bermain handphone",
     choice2: "Merapikan Tempat Tidur",
     answer: "Merapikan Tempat Tidur",
     judul: "TIPS MERAPIKAN TEMPAT TIDUR",
@@ -16,7 +16,7 @@ const questions = [
       "https://janethes.com/wp-content/uploads/2019/01/mengajarkan-rutinitas-gosok-gigi-pada-anak_Artboard-2.png",
     question: "Apa yang dilakukan untuk menjaga gigi tetap sehat?",
     choice1: "menyikat gigi",
-    choice2: "menyikat kaki",
+    choice2: "makan makanan manis",
     answer: "menyikat gigi",
     judul: "TIPS MENGGOSOK GIGI",
     content:
@@ -28,7 +28,7 @@ const questions = [
       "https://makassar.terkini.id/wp-content/uploads/2021/10/terkiniid_images-43_copy_800x500-696x385.jpeg",
     question: "Apa yang dilakukan untuk membersihkan badan?",
     choice1: "Mandi",
-    choice2: "Makan",
+    choice2: "Cuci Muka",
     answer: "Mandi",
     judul: "TIPS MANDI YANG BAIK",
     content:
@@ -40,7 +40,7 @@ const questions = [
       "https://2.bp.blogspot.com/-YIoowFnf0sA/V1z6FM9NHII/AAAAAAAAAG4/0MC2l18pYNIOwuZwlOJxiO0scVaFDBX1wCLcB/s1600/hqdefault.jpg",
     question: "Apa yang dilakukan untuk menutupi anggota badan?",
     choice1: "Memakai Baju",
-    choice2: "Makan",
+    choice2: "Memakai Daun",
     answer: "Memakai Baju",
     judul: "TIPS MEMAKAI BAJU",
     content:
@@ -52,7 +52,7 @@ const questions = [
       "https://core-ruangguru.s3.amazonaws.com/assets/ruang_belajar/questions/q_5pyfrl9628.png",
     question:
       "Apa yang dilakukan untuk lantai tetap bersih dari debu dan kotoran",
-    choice1: "Mandi",
+    choice1: "Membuang sampah di lantai",
     choice2: "Menyapu dan Mengepel",
     answer: "Menyapu dan Mengepel",
     judul: "TIPS MENYAPU DAN MENGEPEL",
@@ -65,7 +65,7 @@ const questions = [
       "https://asset-a.grid.id//crop/0x0:0x0/360x240/photo/2019/02/08/1246883665.jpg",
     question: "Apa yang dilakukan untuk mendukung aktivitas di pagi hari?",
     choice1: "Sarapan",
-    choice2: "Makan",
+    choice2: "Bermain game",
     answer: "Sarapan",
     judul: "TIPS MAKAN SEHAT",
     content:
@@ -76,7 +76,7 @@ const questions = [
     image:
       "https://bimamedia-gurusiana.ap-south-1.linodeobjects.com/d7aacb93a8760f4df821d95bf117ec4b/2021/05/01/l-img20210501120007jpg20210501110058.jpeg",
     question: " apa yang dilakukan untuk setelah sarapan?",
-    choice1: "Mandi",
+    choice1: "Pergi bermain",
     choice2: "Mencuci piring",
     answer: "Mencuci piring",
     judul: "TIPS MENCUCI PIRING",
@@ -89,7 +89,7 @@ const questions = [
       "https://legutykids.com/wp-content/uploads/2021/10/ilustrasi-kiat-jitu-untuk-anak-hebat.png",
     question: "Apa yang dilakukan untuk membersihkan baju setelah dipakai?",
     choice1: " Mencuci baju",
-    choice2: "Makan",
+    choice2: "Membiarkan pakaian kotor",
     answer: " Mencuci baju",
     judul: "TIPS MENCUCI BAJU",
     content:
@@ -101,7 +101,7 @@ const questions = [
     question:
       "apa manfaat dari angin dan matahari? Apa yang dilakukan agar pakaian kering?",
     choice1: "Menjemur baju",
-    choice2: "Makan",
+    choice2: "Menyiram baju",
     answer: "Menjemur baju",
     judul: "TIPS MENJEMUR PAKAIAN",
     content:
@@ -110,8 +110,8 @@ const questions = [
   {
     level: "10",
     image: "https://roysayur.files.wordpress.com/2022/08/95d1b-ironing.jpg",
-    question: " apa yang dilakukan untuk menjaga kerapian baju",
-    choice1: "Mandi",
+    question: "apa yang dilakukan untuk menjaga kerapian baju",
+    choice1: "Membuat baju berantakan",
     choice2: "Menyetrika",
     answer: "Menyetrika",
     judul: "TIPS MENYETRIKA",

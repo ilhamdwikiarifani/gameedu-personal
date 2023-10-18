@@ -41,6 +41,14 @@
   padding: 50px;
 }
 
+.bg-personal {
+  background-image: url("img/hero2.jpg");
+  background-size: cover;
+  backdrop-filter: inherit;
+  background-position: 100% 60%;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
   .modal-container {
     overflow: hidden;
