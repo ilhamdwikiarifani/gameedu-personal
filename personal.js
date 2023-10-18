@@ -8,7 +8,7 @@ const questions = [
     answer: "Merapikan Tempat Tidur",
     judul: "TIPS MERAPIKAN TEMPAT TIDUR",
     content:
-      "Merapikan tempat tidur setiap pagi adalah hal sederhana namun merupakan kebiasaan yang bermanfaat. Merapikan tempat tidur setiap pagi adalah hal sederhana namun merupakan kebiasaan yang bermanfaat.Merapikan tempat tidur setiap pagi adalah hal sederhana namun merupakan kebiasaan yang bermanfaat.Merapikan tempat tidur setiap pagi adalah hal sederhana namun merupakan kebiasaan yang bermanfaat.Merapikan tempat tidur setiap pagi adalah hal sederhana namun merupakan kebiasaan yang bermanfaat.Merapikan tempat tidur setiap ",
+      "<p>Merapikan tempat tidur setiap pagi adalah hal sederhana namun merupakan kebiasaan yang bermanfaat. <br> </p><ol><li>a. Pastikan kamu membersihkan seprai agar tetap bersih, tidak bau, dan nyaman. </li><li>b. Jika kamu memiliki tempat tidur jenis queen bed, menata bantal di sudut tempat tidurakan membuat ruangan terlihat lebih besar. </li><li>c. Pastikan tiap sisi seprai terpasang sama rata.</li><li>d. Rapikan tempat tidur setiap hari, atau lepaskan seprai agar terkena udara segar, tak peduli seperti apa pun “perasaan”mu ketika bangun pagi. Cara ini baik untuk membuat pagimu agar menjadi teratur dan membantu agar bangun lebih cepat. </li><li>e. Pastikan sepraimu terpasang dengan kencang di sudut-sudut tempat tidur. </li><li>f. Terakhir, kamu bisa meletakkan bantal di bagian atas tempat tidur! </li><li>g. Cucilah seprai, selimut, dan sarung bantal setiap hari Minggu. Hal ini akan membuat tempat tidur lebih segar, lebih bersih, dan lebih sehat untuk ditiduri. </li><li>h. Cuci seprai, selimut, dan sarung bantal setiap hari Minggu. Ini akan membantu membuat tidurmu menjadi lebih segar, bersih, dan sehat untuk tidur.</li><li> i. Beri lapisan pada bantal untuk menambahkan sentuhan yang bagus. </li><li>j. Berikan tempat tidur Anda gaya yang kamu sukai. Apa pun yang orang lain pikirkan tak masalah, yang penting hanya hal-hal apa yang Anda pikirkan<br></li></ol>",
   },
   {
     level: "2",
@@ -20,7 +20,7 @@ const questions = [
     answer: "menyikat gigi",
     judul: "TIPS MENGGOSOK GIGI",
     content:
-      "Menyikat gigi merupakan rutinitas yang dilakukan untuk memelihara kebersihan dan kesehatan gigi dan mulut",
+      "<p>Menyikat gigi merupakan rutinitas yang dilakukan untuk memelihara kebersihan dan kesehatan gigi dan mulut.</p><ol><li> a. Genggam sikat gigi Anda dengan menempatkan sudut kepala sikat agak miring dengan posisi membentuk sudut 45 derajat. </li><li>b. Sikatlah gigi Anda dengan gerakan melingkar dari atas ke bawah selama 20 detik untuk setiap bagian. </li><li>c. Pastikan semua permukaan gigi sudah disikat sehingga plak atau sisa makanan yang menempel pada gigi bisa hilang. </li><li>d. Untuk membersihkan permukaan dalam barisan gigi depan, Anda harus memegang sikat gigi secara vertikal. </li><li>e. Gerakkan sikat ke atas dan ke bawah pelan-pelan, lalu ulangi gerakan ini sebanyak 2– 3 kali. </li><li>f. Setelah semua gigi tersikat, bilas mulut dan sikat gigi Anda sampai bersih.</li></ol>",
   },
   {
     level: "3",
@@ -142,7 +142,7 @@ function displayQuestion() {
   choice1Element.textContent = questions[currentQuestion].choice1;
   choice2Element.textContent = questions[currentQuestion].choice2;
   judulElement.textContent = questions[currentQuestion].judul;
-  contentElement.textContent = questions[currentQuestion].content;
+  contentElement.innerHTML = questions[currentQuestion].content;
   skorElement.textContent = skor + "/" + questions.length;
 }
 
