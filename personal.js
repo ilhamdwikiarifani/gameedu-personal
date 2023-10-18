@@ -2,7 +2,7 @@ const questions = [
   {
     level: "1",
     image:
-      "https://www.ebookanak.com/wp-content/uploads/Gambar-47-Membersihkan-dan-Merapikan-Tempat-Tidur.jpg",
+      "https://janethes.com/wp-content/uploads/2019/01/mengajarkan-rutinitas-gosok-gigi-pada-anak_Artboard-2.png",
     question: "Apa yang dilakukan setelah bangun tidur?",
     choice1: "Pergi",
     choice2: "Merapikan Tempat Tidur",
@@ -26,7 +26,7 @@ const questions = [
   {
     level: "3",
     image:
-      "https://www.ebookanak.com/wp-content/uploads/Gambar-48-Keramas-dengan-Sampo-Saat-Mandi.jpg",
+      "https://janethes.com/wp-content/uploads/2019/01/mengajarkan-rutinitas-gosok-gigi-pada-anak_Artboard-2.png",
     question: "Apa yang dilakukan untuk membersihkan badan?",
     choice1: "Mandi",
     choice2: "Makan",
