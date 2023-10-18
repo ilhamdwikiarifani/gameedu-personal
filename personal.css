@@ -78,3 +78,21 @@
 .animasi-bounce2 {
   animation: bounce 1s infinite;
 }
+
+@keyframes leaves {
+  0%,
+  100% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+.animasi-scale {
+  animation: leaves 3s infinite;
+}
+
+button:disabled {
+  animation: none;
+}

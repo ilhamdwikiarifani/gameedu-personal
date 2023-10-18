@@ -117,5 +117,6 @@ function resetButtons() {
 
 function endModal() {
   document.getElementById("end-modal").style.display = "none";
+  document.getElementById("benar-modal").style.display = "none";
   window.location.reload();
 }
