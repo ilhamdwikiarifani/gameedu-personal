@@ -44,7 +44,7 @@
 }
 
 .bg-personal {
-  background-image: url("img/hero2.jpg");
+  background-image: url("img/hero1.jpg");
   -webkit-backdrop-filter: brightness(50%);
   backdrop-filter: brightness(50%);
   background-size: cover;
