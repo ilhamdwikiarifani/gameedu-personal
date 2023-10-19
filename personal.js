@@ -134,6 +134,12 @@ const judulElement = document.getElementById("judul");
 const contentElement = document.getElementById("content");
 const skorElement = document.getElementById("skor");
 
+function startQuiz() {
+  document.getElementById("start-button").style.display = "none";
+  document.getElementById("contentBody").style.display = "block";
+  displayQuestion();
+}
+
 function displayQuestion() {
   levelElement.textContent = questions[currentQuestion].level;
   levelmodalElement.textContent = questions[currentQuestion].level;
@@ -145,8 +151,6 @@ function displayQuestion() {
   contentElement.innerHTML = questions[currentQuestion].content;
   skorElement.textContent = skor + "/" + questions.length;
 }
-
-displayQuestion();
 
 function checkAnswer(answer) {
   if (answer === questions[currentQuestion].answer) {
