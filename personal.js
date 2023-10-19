@@ -1,7 +1,8 @@
 const questions = [
   {
     level: "1",
-    image: "https://legutykids.com/wp-content/uploads/2023/03/Nurfatuh.png",
+    image:
+      "https://cdn.pnghd.pics/data/394/gambar-kartun-merapikan-tempat-tidur-7.png",
     question: "Apa yang dilakukan setelah bangun tidur?",
     choice1: "Bermain handphone",
     choice2: "Merapikan Tempat Tidur",
@@ -73,8 +74,7 @@ const questions = [
   },
   {
     level: "7",
-    image:
-      "https://bimamedia-gurusiana.ap-south-1.linodeobjects.com/d7aacb93a8760f4df821d95bf117ec4b/2021/05/01/l-img20210501120007jpg20210501110058.jpeg",
+    image: "https://cdn.pnghd.pics/data/390/gambar-kartun-cuci-piring-16.jpg",
     question: " apa yang dilakukan untuk setelah sarapan?",
     choice1: "Pergi bermain",
     choice2: "Mencuci piring",
@@ -97,7 +97,8 @@ const questions = [
   },
   {
     level: "9",
-    image: "https://cdn.pnghd.pics/data/473/gambar-orang-menjemur-baju-3.jpg",
+    image:
+      "https://cdn.pnghd.pics/data/447/gambar-menjemur-pakaian-kartun-3.png",
     question:
       "apa manfaat dari angin dan matahari? Apa yang dilakukan agar pakaian kering?",
     choice1: "Menjemur baju",
@@ -109,7 +110,8 @@ const questions = [
   },
   {
     level: "10",
-    image: "https://roysayur.files.wordpress.com/2022/08/95d1b-ironing.jpg",
+    image:
+      "https://www.ebookanak.com/wp-content/uploads/2017/10/ilustrasi-seri-kebiasaan-anak-shalih-menyetrika-pakaian-agar-jadi-rapi.jpg",
     question: "apa yang dilakukan untuk menjaga kerapian baju",
     choice1: "Membuat baju berantakan",
     choice2: "Menyetrika",
@@ -135,9 +137,16 @@ const contentElement = document.getElementById("content");
 const skorElement = document.getElementById("skor");
 
 function startQuiz() {
+  const loadingElement = document.getElementById("loading");
+  loadingElement.style.display = "block";
+
   document.getElementById("start-button").style.display = "none";
-  document.getElementById("contentBody").style.display = "block";
-  displayQuestion();
+
+  setTimeout(function () {
+    document.getElementById("contentBody").style.display = "block";
+    displayQuestion();
+    loadingElement.style.display = "none";
+  }, 1800);
 }
 
 function displayQuestion() {
@@ -203,7 +212,12 @@ function resetButtons() {
 }
 
 function endModal() {
-  document.getElementById("end-modal").style.display = "none";
-  document.getElementById("benar-modal").style.display = "none";
-  window.location.reload();
+  skorElement.style.display = "none";
+  const loadingModalElement = document.getElementById("loadingModal");
+  loadingModalElement.style.display = "block";
+
+  setTimeout(function () {
+    document.getElementById("contentBody").style.display = "none";
+    window.location.reload();
+  }, 2000);
 }
