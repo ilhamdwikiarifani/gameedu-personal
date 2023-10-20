@@ -141,6 +141,7 @@ function startQuiz() {
   loadingElement.style.display = "block";
 
   document.getElementById("start-button").style.display = "none";
+  document.getElementById("petunjuk-button").style.display = "none";
 
   setTimeout(function () {
     document.getElementById("contentBody").style.display = "block";
@@ -189,6 +190,13 @@ choice2Element.addEventListener("click", () => {
 
 function backModal() {
   document.getElementById("salah-modal").style.display = "none";
+}
+
+function petunjukModal() {
+  document.getElementById("petunjuk-modal").style.display = "flex";
+}
+function petunjukModalClose() {
+  document.getElementById("petunjuk-modal").style.display = "none";
 }
 
 function bacaMateri() {
